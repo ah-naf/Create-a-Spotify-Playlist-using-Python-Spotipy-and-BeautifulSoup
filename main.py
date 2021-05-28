@@ -18,8 +18,8 @@ songs = [song.string for song in data]
 
 # Spotify API
 
-client_id = "d9a6f2cb72ab4231b9b652b43d6dc287"
-client_secret = "4f01631473f44ff68da237e65c94954d"
+client_id = YOUR_CLIENT_ID
+client_secret = YOUR_CLIENT_SECRET
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
             scope="playlist-modify-private",
